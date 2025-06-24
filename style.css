@@ -45,19 +45,21 @@ img{
 }
 .continue_btn{
     padding: 14px 30px;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s;
     text-decoration: none;
-    color: black;
+    color: white;
     display: block;
     width: 300px;
     text-align: center;
+    background: black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
 }
 .continue_btn:hover{
-    background: black;
-    color: white;
+    background: white;
+    color: black;
 }
 .btns2{
     margin-top: 20px;
@@ -65,55 +67,61 @@ img{
     gap: 20px;
 }
 .btn1{
-    background: #FFCCCC;
+    /*background: #FFCCCC;*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
     padding: 14px 30px;
-    border: 2px solid #B85450;
+    background: black;
+    /*border: 2px solid #B85450;*/
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s;
     text-decoration: none;
-    color: black;
+    color: white;
     width: 300px;
     text-align: justify;
     display: block;
 }
 .btn1:hover{
-    background: #B85450;
-    color: white;
+    background: white;
+    color: black;
 }
 .btn2{
-    background: #FFF2CC;
+    /*background: #FFF2CC;*/
+    background: black;
     padding: 14px 30px;
-    border: 2px solid #D6B656;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+    /*border: 2px solid #D6B656;*/
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s;
     text-decoration: none;
-    color: black;
+    color: white;
     width: 300px;
     text-align: justify;
     display: block;
 }
 .btn2:hover{
-    background: #D6B656;
-    color: white;
+    background: white;
+    color: black;
 }
 .btn3{
-    background: #D5E8D4;
+    /*background: #D5E8D4;*/
+    background: black;
     padding: 14px 30px;
-    border: 2px solid #88B66D;
+    /*border: 2px solid #88B66D;*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s;
     text-decoration: none;
-    color: black;
+    color: white;
     width: 300px;
     text-align: justify;
     display: block;
 }
 .btn3:hover{
-    background: #88B66D;
-    color: white;
+    background: white;
+    color: black;
 }
 .ORIGINAL{
     width: 100%;
